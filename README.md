@@ -1,14 +1,16 @@
 # `TourAppTemplate`
+See the working Demo [here](https://tourapp-1a09c.web.app/)
 
-`TourAppTemplate` is a sample app code template for a tour like app with React360.
-There're also inline comments to guide how each part of the sample code works.
+`TourAppTemplate` is a sample app code template for a virtual tour like app with React360.
+
 This Template includes:
 - Basic UI and interaction and Animation
 - Loading Data via network
 - Display 360 scene and hotspots
 This sample is designed for use in Facebook Instant Games using the [Instant Games SDK](https://developers.facebook.com/docs/games/instant-games)."
 
-`TourAppTemplate` provide two example ways to place hotspots, which you can switch by setting 
+
+`TourAppTemplate` provide two example ways to place hotspots, which you can switch by setting
 `useDynamicSurface` to true/false in `index.html`
 1. Use dynamic surface: (`useDynamicSurface = true`):
    - This is recommended for most case, it has less limitation and allow you to place hotspots on any position(e.g. on the top or bottom). From performance wise, less than 8 hotspots per scene should works fine on mobile.
